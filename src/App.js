@@ -1,10 +1,16 @@
 import React, { Component } from "react";
-import Navbar from "./Components/Layout/Navbar";
+import Navbar from "./components/layout/Navbar";
+import Users from "./components/users/Users";
 import "./App.css";
 
 class App extends Component {
   render() {
-    return <Navbar />;
+    return (
+      <div>
+        <Navbar />
+        <Users />
+      </div>
+    );
   }
 }
 
